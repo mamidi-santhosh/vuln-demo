@@ -2,10 +2,8 @@
     "extends": ["config:base"],
     "packageRules": [
       {
-        "matchPackagePatterns": ["com.fasterxml.jackson.core"],
-        "groupName": "Jackson Dependencies",
+        "matchUpdateTypes": ["minor", "patch"],
         "automerge": true
       }
     ]
   }
-  
